@@ -3,7 +3,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>com.github.cloud-technology</groupId>
    <artifactId>spring-boot-starter-parent</artifactId>
-   <version>1.0.0.RELEASE</version>
+   <version>1.0.1.RELEASE</version>
    <packaging>pom</packaging>
    <name>Spring Boot Parent</name>
    <description>Parent pom providing dependency and plugin management for applications built with Maven</description>
@@ -21,7 +21,10 @@
       <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
       <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
       <chaos-monkey.version>2.2.0</chaos-monkey.version>
-      <spring-boot-maven-plugin.version>2.3.0.RELEASE</spring-boot-maven-plugin.version>      
+      <spring-boot-maven-plugin.version>2.3.0.RELEASE</spring-boot-maven-plugin.version>
+      <jacoco-maven-plugin>0.8.5</jacoco-maven-plugin>
+      <sonar-maven-plugin.version>3.7.0.1746</sonar-maven-plugin.version>
+      <testcontainers.version>1.14.2</testcontainers.version>
    </properties>
 
    <dependencyManagement>

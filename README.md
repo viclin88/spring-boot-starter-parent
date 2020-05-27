@@ -32,6 +32,9 @@ Step 2. Change the parent
 | spring-cloud             | Hoxton.SR4    |
 | logstash-logback-encoder | 6.3           |
 | chaos-monkey             | 2.2.0         |
+| jacoco-maven-plugin      | 0.8.5         |
+| sonar-maven-plugin       | 3.7.0.1746    |
+| testcontainers           | 1.14.2        |
 
 ## Code Style
 [Google Java Style](https://github.com/google/google-java-format)  
