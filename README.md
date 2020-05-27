@@ -3,7 +3,7 @@ Parent pom providing dependency and plugin management for applications built wit
 
 [![](https://jitpack.io/v/cloud-technology/spring-boot-starter-parent.svg)](https://jitpack.io/#cloud-technology/spring-boot-starter-parent)
 
-## How to
+## How to use
 Step 1. Add the JitPack repository to your build file
 
 ```xml
@@ -23,3 +23,29 @@ Step 2. Change the parent
         <version>${version}</version>
     </parent>
 ```
+
+## Dependency
+| library                  | version       |
+|--------------------------|---------------|
+| spring-boot              | 2.3.0.RELEASE |
+| spring-boot-maven-plugin | 2.3.0.RELEASE |
+| spring-cloud             | Hoxton.SR4    |
+| logstash-logback-encoder | 6.3           |
+| chaos-monkey             | 2.2.0         |
+
+## Code Style
+[Google Java Style](https://github.com/google/google-java-format)  
+[Maven plugin](https://github.com/Cosium/git-code-format-maven-plugin)
+
+Manual code formatting
+```bash
+./mvnw git-code-format:format-code -Dgcf.globPattern=**/*
+```
+
+Install git hook
+```bash
+./mvnw git-code-format:install-hooks
+```
+
+[Using google-java-format with VS Code](https://www.sethvargo.com/using-google-java-format-with-vs-code/)
+
