@@ -21,6 +21,7 @@ Step 2. Change the parent
         <groupId>com.github.cloud-technology</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>${version}</version>
+	<relativePath/> <!-- lookup parent from repository -->
     </parent>
 ```
 
